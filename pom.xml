@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>jgitflow-test</groupId>
     <artifactId>jgitflow-test</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1</version>
     <build>
         <plugins>
             <plugin>
