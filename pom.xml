@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>jgitflow-test</groupId>
     <artifactId>jgitflow-test</artifactId>
-    <version>1.1</version>
+    <version>1.2</version>
     <build>
         <plugins>
             <plugin>
@@ -18,8 +18,10 @@
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>blither-</versionTagPrefix>
                     </flowInitContext>
-                   <noDeploy>true</noDeploy>
-                  <pushReleases>true</pushReleases>
+                    <noDeploy>true</noDeploy>
+                    <pushReleases>true</pushReleases>
+                    <pushFeatures>true</pushFeatures>
+                    <pushHotfixes>true</pushHotfixes>
                 </configuration>
             </plugin>
         </plugins>
