@@ -18,6 +18,8 @@
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>blither-</versionTagPrefix>
                     </flowInitContext>
+                   <noDeploy>true</noDeploy>
+                  <pushReleases>true</pushReleases>
                 </configuration>
             </plugin>
         </plugins>
